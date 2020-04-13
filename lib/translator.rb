@@ -20,6 +20,9 @@ emoticons = YAML.load_file(file_path)
  emoticons.each do |meaning, value| 
    dig value
    value 
+   if the given value matches 
+     return the paired answer 
+      
 
 result = {} 
 
