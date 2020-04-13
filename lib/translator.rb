@@ -14,6 +14,7 @@ def load_library(file_path)
   end
   emoticon_lib
 
+binding.pry
 end
 
  
