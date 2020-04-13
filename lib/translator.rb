@@ -19,7 +19,7 @@ def get_japanese_emoticon(file_path, japanese_emoticon)
 emoticons = YAML.load_file(file_path)
  library = load.library 
  if library.include?(japanese_emoticon)
-   
+   binding.pry
  
  
  
