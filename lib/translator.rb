@@ -7,7 +7,7 @@ def load_library(file_path)
   get_meaning = {}
   
   emoticons.each do |english_meaning, expressions|
-    new_hash[ ] = expressions[0]
+    new_hash[] = expressions[0]
     
   end
   new_hash
