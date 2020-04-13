@@ -11,9 +11,7 @@ def load_library(file_path)
     result[meaning][:english] = value[0]
     result[meaning][:japanese] = value[1]
   end
-  
 result
-
 
 end
 
