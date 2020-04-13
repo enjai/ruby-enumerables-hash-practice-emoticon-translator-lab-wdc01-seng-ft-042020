@@ -5,16 +5,16 @@ def load_library(file_path)
  emoticons = YAML.load_file(file_path)
  
   emoticon_lib = {}
-
+  inner_hash = {}
   emoticons.each do |meaning, value|  # meaning= "surprised"   # value= [":o", "o_O"]  <-(e,j)
     english = value[0]
     japanese = value[1]
-    emoticon_lib[japanese] = meaning
+    emoticon_lib[meaning] = inner_hash 
     emoticon_lib['get_emoticon'][english] = japanese
   end
   emoticon_lib
   
-binding.pry
+  binding.pry
 end
 
  
