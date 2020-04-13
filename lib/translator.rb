@@ -15,27 +15,5 @@ def load_library(file_path)
 result 
 end
 
-def get_japanese_emoticon(file_path, japanese_emoticon)
-emoticons = YAML.load_file(file_path)
- library = load.library 
- if library.include?(japanese_emoticon)
-   binding.pry
- 
- 
- 
- 
- emoticons.each do |meaning, value| 
-   dig value
-   value 
-   if the given value matches 
-     return the paired answer 
-      
-
-result = {} 
 
 
-end
-
-def get_english_meaning
-  # code goes here
-end
