@@ -10,10 +10,10 @@ def load_library(file_path)
     result[meaning] = inner_hash 
     result[meaning][:english] = value[0]
     emoticon_lib[meaning][:japanese] = value[1]
-    
+   binding.pry   
   end
   
-  binding.pry
+
   emoticon_lib
 
 
