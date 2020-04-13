@@ -9,12 +9,10 @@ def load_library(file_path)
   emoticons.each do |meaning, value|  # meaning= "surprised"   # value= [":o", "o_O"]  <-(e,j)
     result[meaning] = inner_hash 
     result[meaning][:english] = value[0]
-    emoticon_lib[meaning][:japanese] = value[1]
-binding.pry 
+    result[meaning][:japanese] = value[1]
   end
   
-
-  emoticon_lib
+result
 
 
 end
