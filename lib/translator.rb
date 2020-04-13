@@ -7,11 +7,12 @@ def load_library(file_path)
   result = {}
 
   emoticons.each do |meaning, (english, japanese)|
+    binding.pry 
     result[meaning] = {}
     result[meaning][:english] = english
     result[meaning][:japanese] = japanese
   end
-result
+result 
 end
 
    
