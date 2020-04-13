@@ -9,11 +9,11 @@ def load_library(file_path)
  emoticons.each do |meaning, translation|
    english = translation[0]
    japanese = translation[1]
-   new_hash[japanese] = meaning
-   new_hash["get_emoticon"][english] = japanese
+  
+  
+  
  end
   return new_hash
-  binding.pry 
 end
 
  
