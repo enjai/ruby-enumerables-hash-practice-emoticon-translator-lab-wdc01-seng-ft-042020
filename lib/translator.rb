@@ -13,8 +13,6 @@ def load_library(file_path)
       end
       new_hash[english_meaning] = inner_hash 
     
-    binding.pry 
-    
   end
   
   new_hash
