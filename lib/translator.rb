@@ -8,7 +8,7 @@ def load_library(file_path)
   get_meaning = {}
   
   emoticons.each do |english_meaning, expressions|
-    
+    new_hash{
     new_hash[english_meaning] = [:english => expressions[0], :japanese => expressions[1]]
   end
   new_hash
