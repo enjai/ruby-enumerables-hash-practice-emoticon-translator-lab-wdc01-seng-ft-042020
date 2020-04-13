@@ -9,10 +9,8 @@ def load_library(file_path)
     english = expressions[0]
     japanese = expressions[1]
     new_hash = new_hash[english_meaning] 
-  
-  binding.pry 
-  
   end
+  binding.pry
   new_hash
 end
 
