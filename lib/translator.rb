@@ -12,7 +12,6 @@ def load_library(file_path)
   end
   new_hash
 
-  
 end
 
  
