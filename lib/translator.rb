@@ -12,9 +12,11 @@ def load_library(file_path)
     emoticon_lib[meaning][:japanese] = value[1]
     
   end
+  
+  binding.pry
   emoticon_lib
 
-binding.pry
+
 end
 
  
