@@ -1,4 +1,5 @@
 require "yaml"
+require "pry"
 
 def load_library(file_path)
  emoticons = YAML.load_file(file_path)
@@ -11,6 +12,8 @@ def load_library(file_path)
     result[meaning][:japanese] = japanese
   end
 result
+binding.pry
+
 end
 
    
