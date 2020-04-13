@@ -4,7 +4,7 @@ require 'pry'
 def load_library(file_path)
  emoticons = YAML.load_file(file_path)
  
-  emoticon_lib = {}
+  result = {}
   inner_hash = {}
   emoticons.each do |meaning, value|  # meaning= "surprised"   # value= [":o", "o_O"]  <-(e,j)
     emoticon_lib[meaning] = inner_hash 
