@@ -11,10 +11,11 @@ def load_library(file_path)
     japanese = value[1]
     emoticon_lib[meaning] = inner_hash 
     emoticon_lib['get_emoticon'][english] = japanese
+    
+    binding.pry
   end
   emoticon_lib
-  
-  binding.pry
+
 end
 
  
