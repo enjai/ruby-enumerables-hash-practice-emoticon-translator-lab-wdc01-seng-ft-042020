@@ -21,6 +21,7 @@ emoticons = YAML.load_file(file_path)
 
 result = {} 
 
+
 end
 
 def get_english_meaning
