@@ -12,6 +12,7 @@ def load_library(file_path)
     result[meaning][:japanese] = japanese
   end
 result 
+binding.pry
 end
 
 
