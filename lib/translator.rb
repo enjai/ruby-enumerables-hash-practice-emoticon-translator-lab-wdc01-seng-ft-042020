@@ -16,10 +16,10 @@ end
 
 require "pry"
 
-def get_english_meaning(file_path, english_emoticon)
+def get_english_meaning(file_path, japanese_emoticon)
   library = load_library 
-  if libary.include? (english_emoticon)
-    library 
+end
+
   
 
 
