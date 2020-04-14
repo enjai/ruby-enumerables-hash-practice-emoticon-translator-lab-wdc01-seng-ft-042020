@@ -18,8 +18,10 @@ require "pry"
 
 def get_english_meaning(file_path, japanese_emoticon) 
   library = load_library(file_path)
+  response = 
   library.each do |meaning, (english, japanese)
-    if japanese_emoticon == 
+    if japanese_emoticon == japanese 
+      
   
 end
 
