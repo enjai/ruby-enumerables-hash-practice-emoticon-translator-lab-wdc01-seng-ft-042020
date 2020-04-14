@@ -23,6 +23,8 @@ def get_english_meaning(file_path, japanese_emoticon)
     if japanese_emoticon == english[:japanese]
       response = meaning 
     end
+  else 
+    "S"
   end
   response
   
