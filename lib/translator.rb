@@ -22,9 +22,9 @@ def get_english_meaning(file_path, japanese_emoticon)
   library.each do |meaning, (english, japanese) |
     if japanese_emoticon == english[:japanese]
       response = meaning 
-   else 
-   response = "Sorry"
-  end
+    end
+    end
+  else re
 end
 response
 end
