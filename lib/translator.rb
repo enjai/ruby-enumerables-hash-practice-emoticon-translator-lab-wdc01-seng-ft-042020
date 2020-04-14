@@ -26,7 +26,7 @@ def get_english_meaning(file_path, japanese_emoticon)
     end
   if response == nil 
     response = "Sorry"
-  else re
+  else return response
   end
 response
 end
