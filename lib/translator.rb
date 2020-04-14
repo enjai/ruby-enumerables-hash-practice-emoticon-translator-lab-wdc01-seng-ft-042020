@@ -12,8 +12,12 @@ def load_library(file_path)
     result[meaning][:japanese] = japanese
   end
 result 
-binding.pry
 end
 
+def get_english_meaning(file_path, english_emoticon)
+  library = load_library 
+  if libary.include? (english_emoticon)
+    library(english_emoticon)  = 
+  
 
 
