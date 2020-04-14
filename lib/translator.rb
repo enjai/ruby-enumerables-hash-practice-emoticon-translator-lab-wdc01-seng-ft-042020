@@ -38,7 +38,9 @@ def get_japanese_emoticon(file_path, english_emoticon)
       response = english[:japanese]
     end 
   end
-response
+  if response == nil 
+    response = "Sorry, that emoticon was not found"
+  else return response
 end
 
 
