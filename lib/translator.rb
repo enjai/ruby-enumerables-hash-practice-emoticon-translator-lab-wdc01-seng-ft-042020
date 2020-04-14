@@ -1,5 +1,5 @@
 require "yaml"
-require "pry"
+
 
 def load_library(file_path)
  emoticons = YAML.load_file(file_path)
@@ -14,10 +14,12 @@ def load_library(file_path)
 result 
 end
 
+require "pry"
+
 def get_english_meaning(file_path, english_emoticon)
   library = load_library 
   if libary.include? (english_emoticon)
-    library(japanese
+    library 
   
 
 
