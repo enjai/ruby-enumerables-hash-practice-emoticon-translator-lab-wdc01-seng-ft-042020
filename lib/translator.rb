@@ -27,7 +27,7 @@ def get_english_meaning(file_path, japanese_emoticon)
    response = "Sorry"
   end
   response
-  
+end
 end
 
   
