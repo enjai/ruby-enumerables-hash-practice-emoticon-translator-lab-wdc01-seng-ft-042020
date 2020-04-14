@@ -14,10 +14,10 @@ def load_library(file_path)
 result 
 end
 
-require "pry"
 
 def get_english_meaning(file_path, japanese_emoticon)
-  library = load_library 
+  library = load_library
+  
 end
 
   
