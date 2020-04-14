@@ -16,9 +16,9 @@ end
 
 require "pry"
 
-def get_english_meaning(file_path, japanese_emoticon)
+def get_english_meaning(file_path, japanese_emoticon) 
   library = load_library
-  binding.pry
+ binding.pry
 end
 
   
