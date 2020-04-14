@@ -19,9 +19,9 @@ require "pry"
 def get_english_meaning(file_path, japanese_emoticon) 
   library = load_library(file_path)
   response = nil 
-  library.each do |meaning,  |
-    if japanese_emoticon == japanese 
-      response = english 
+  library.each do |meaning, (english, japanese) |
+    if japanese_emoticon == english[:japanese]
+      response = meaning 
     end
     binding.pry 
   end
