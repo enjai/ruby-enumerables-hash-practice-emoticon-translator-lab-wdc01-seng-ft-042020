@@ -23,6 +23,7 @@ def get_english_meaning(file_path, japanese_emoticon)
     if japanese_emoticon == japanese 
       response = english 
     end
+    binding.pry 
   end
   response
   
